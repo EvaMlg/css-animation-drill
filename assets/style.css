@@ -1,0 +1,93 @@
+.stage {
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 590px;
+  width: 590px;
+  border: 1px black dashed;
+  background-color: #f3eded;
+}
+
+.hero {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 75px;
+    width: 75px;
+    border: 1px red dashed;
+    animation: stepone 5s linear forwards, steptwo 5s 2s linear forwards, stepthree 0.5s 7s linear forwards, stepfour 2s 7.5s linear forwards, stepfive 2.5s 9.5s linear forwards, stepsix 5s 13.5s linear forwards;
+  }
+ 
+  @keyframes stepone {
+      from {
+          margin-left:10px
+      }
+       
+      to {
+        margin-left:505px
+    }
+    
+
+  }
+  
+  @keyframes steptwo {
+    from {
+        margin-top:10px
+    }
+     
+    to {
+      margin-top: 195px
+  }
+  
+
+}
+
+@keyframes stepthree {
+    from {
+    margin-right:10px;
+    }
+     
+    to {
+      margin-right:160px;
+      rotate: 45%;
+  }
+  
+
+}
+
+@keyframes stepfour {
+    from {
+        margin-left:250px;
+    }
+     
+    to {
+      margin-left:10px;
+      border-color: #0900BD;
+  }
+  
+
+}
+
+@keyframes stepfive {
+    from {
+        margin-left:10px;
+    }
+     
+    to {
+      margin-left:505px;
+  }
+  
+
+}
+
+@keyframes stepsix {
+    from {
+        margin-bottom:317px;
+    }
+     
+    to {
+        margin-bottom:3px;
+        background-color: radial-gradient(#F76B1C, #FBDA61);
+        size: 150px;
+  }
+  
+
+}
